@@ -8,6 +8,10 @@ cd openwrt
 # Install packages from feeds
 ./scripts/feeds update -a
 ./scripts/feeds install -a
+make menuconfig
+# select latest C++ compiler
+# Advanced configuration options (for developers)  ---> [*]   Toolchain Options  ---> GCC compiler Version (gcc 10.x)
+make
 
 # Install the package manually
 cd
