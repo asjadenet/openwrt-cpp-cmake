@@ -1,5 +1,4 @@
 #!/bin/bash
-echo $(pwd)
 if [ "$1" == "" ] || [ $# -gt 1 ]; then
         echo "Please specify package name"
         exit 0
