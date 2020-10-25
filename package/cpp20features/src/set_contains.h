@@ -1,0 +1,6 @@
+#ifndef CPP20FEATURES__SET_CONTAINS_H
+#define CPP20FEATURES__SET_CONTAINS_H
+
+bool set_contains(int n);
+
+#endif //CPP20FEATURES__SET_CONTAINS_H
